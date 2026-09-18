@@ -1,29 +1,41 @@
 # Pastafresca013 — download e aggiornamenti
 
-> **18 settembre 2026:** il passaggio automatico alla 1.5.0 è temporaneamente sospeso dopo un arresto rilevato durante l’installazione. Il canale propone nuovamente la 1.4.2. La correzione è in verifica; non ripetere l’aggiornamento alla 1.5.0. Le funzionalità fatture e il nuovo logo non sono ancora distribuiti tramite aggiornamento automatico verificato.
+Gestionale da installare e usare anche senza Internet. La versione **1.5.1 per Mac Apple Silicon (M1 e successivi)** aggiunge le fatture fornitori e il logo ufficiale. Conserva ricette base riutilizzabili, grammi ed eliminazione protetta dei prodotti inutilizzati.
 
-Gestionale da installare e usare anche senza Internet. La versione **1.4.2 per Mac Apple Silicon (M1 e successivi)** include aggiornamenti automatici, ricette base riutilizzabili, grammi ed eliminazione protetta dei prodotti inutilizzati.
+**[Scarica Pastafresca013 per Mac Apple Silicon](https://github.com/lorenzofulgosi92-ai/pastafresca013-aggiornamenti/releases/download/v1.5.1/Pastafresca013-1.5.1-mac-arm64.zip)**
 
-**[Scarica Pastafresca013 per Mac Apple Silicon](https://github.com/lorenzofulgosi92-ai/pastafresca013-aggiornamenti/releases/download/v1.4.2/Pastafresca013-1.4.2-mac-arm64.zip)**
+[Dettagli e istruzioni della versione 1.5.1](https://github.com/lorenzofulgosi92-ai/pastafresca013-aggiornamenti/releases/tag/v1.5.1)
 
-[Dettagli e istruzioni della versione 1.4.2](https://github.com/lorenzofulgosi92-ai/pastafresca013-aggiornamenti/releases/tag/v1.4.2)
+## Hai già la versione 1.4.2?
 
-## Primo avvio o passaggio da una vecchia versione
+Accedi come amministratore, apri **Impostazioni → Aggiorna** e segui la richiesta di riavvio. Il programma scarica la nuova versione, crea un backup e si riapre aggiornato. Non devi scaricare ZIP o sostituire manualmente l’app.
 
-1. Se usi già il gestionale, apri Impostazioni, scegli **Crea backup completo** e poi chiudi il programma.
-2. Apri il file scaricato e sposta **Pastafresca013** nella cartella **Applicazioni**, confermando la sostituzione se richiesta.
-3. Apri il programma da Applicazioni. Puoi accedere con l’utente già creato: archivio e account rimangono sul computer.
+La 1.5.1 riduce il pacchetto a 779 MB mantenendo assistente, PDF e OCR offline. Corregge il problema incontrato nell’aggiornamento al precedente pacchetto 1.5.0, che resta sospeso.
 
-Questo passaggio iniziale introduce la nuova versione con firma Developer ID e verifica Apple. Gli aggiornamenti successivi si gestiscono dal pulsante **Aggiorna** in Impostazioni: il programma scarica la nuova versione, crea un backup e si riapre aggiornato.
+## Prima installazione o versioni precedenti alla 1.4.2
 
-## Aggiornamenti e dati
+1. Se usi già una vecchia versione, crea un backup completo da Impostazioni e chiudi il programma.
+2. Apri il file scaricato e sposta **Pastafresca013** nella cartella **Applicazioni**.
+3. Apri il programma da Applicazioni. Gli account e l’archivio già presenti rimangono sul computer.
 
-Il controllo avviene anche all’apertura e ogni quattro ore. Gli aggiornamenti già scaricati si installano alla normale chiusura. Serve Internet per cercare e scaricare le nuove versioni; il lavoro nel gestionale rimane disponibile offline.
+## Fatture fornitori
 
-La firma del manifesto e l’integrità dei pacchetti vengono verificate prima dell’installazione. Il pacchetto Mac 1.4.2 è firmato Developer ID e notarizzato da Apple. Il collaudo con dati fittizi ha verificato sostituzione, riapertura e conservazione di archivio, accesso, documenti e backup.
+Da **Documenti → Carica fattura**, scegli PDF, scansioni o fotografie. Il riepilogo mostra prodotti caricati, quantità aggiunte e righe da verificare. Solo le righe che superano tutti i controlli aggiornano il magazzino: le altre mostrano originale, motivo e campi da correggere.
 
-Questa versione è disponibile per Mac Apple Silicon. I nuovi pacchetti Intel e Windows richiedono ancora preparazione e collaudo. Le [versioni precedenti](https://github.com/lorenzofulgosi92-ai/pastafresca013-aggiornamenti/releases) restano disponibili con i rispettivi limiti.
+Il testo originale viene conservato. Il glossario alimentare controllato comprende italiano, olandese, inglese, francese, tedesco e spagnolo; parole o lingue sconosciute richiedono verifica manuale. Marchi, codici e nomi commerciali espliciti rimangono invariati. Le confezioni vengono convertite soltanto quando quantità e contenuti sono espliciti.
 
-I dati del ristorante, gli account locali e i backup non vengono caricati in questo repository. Il repository contiene le istruzioni; gli installer sono allegati alle release.
+I carichi sono collegati a fattura e riga; i duplicati già elaborati non vengono caricati nuovamente. Non usare questo flusso per merce già ricevuta tramite un ordine o movimento manuale.
+
+## Aggiornamenti e verifiche
+
+Serve Internet per cercare e scaricare aggiornamenti. Il lavoro nel gestionale, la lettura PDF e l’OCR restano disponibili offline.
+
+Il pacchetto è firmato Developer ID, notarizzato da Apple e accettato da Gatekeeper. Firma del manifesto e integrità dello ZIP sono verificate prima dell’installazione. I 113 test del gestionale sono passati senza errori o esclusioni.
+
+Il collaudo nativo con un pacchetto completo e dati fittizi ha verificato aggiornamento e riapertura usando i moduli degli aggiornamenti della 1.4.2, conservazione di archivio, accesso, documenti e backup, e integrità di tutte le 274 risorse offline distribuite.
+
+Questa versione include soltanto Mac Apple Silicon. I nuovi installer Intel e Windows richiedono preparazione e collaudo.
+
+I dati del ristorante, gli account locali e i backup non vengono caricati in questo repository. Gli installer sono allegati alle release.
 
 Conservare le licenze di terze parti incluse nell’app. Built with Llama.

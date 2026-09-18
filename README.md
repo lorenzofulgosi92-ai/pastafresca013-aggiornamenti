@@ -1,22 +1,27 @@
-# Pastafresca013 — aggiornamenti
+# Pastafresca013 — download e aggiornamenti
 
-Questo spazio ospita i pacchetti di installazione di Pastafresca013 e le istruzioni per aggiornarlo.
+Gestionale da installare e usare anche senza Internet. La versione **1.4.2 per Mac Apple Silicon (M1 e successivi)** include aggiornamenti automatici, ricette base riutilizzabili, grammi ed eliminazione protetta dei prodotti inutilizzati.
 
-I pacchetti pubblicati sono nella pagina [Versioni disponibili](https://github.com/lorenzofulgosi92-ai/pastafresca013-aggiornamenti/releases). La prima versione collegata a questo canale è la 1.4.1: la 1.4.0 va aggiornata manualmente.
+**[Scarica Pastafresca013 per Mac Apple Silicon](https://github.com/lorenzofulgosi92-ai/pastafresca013-aggiornamenti/releases/download/v1.4.2/Pastafresca013-1.4.2-mac-arm64.zip)**
 
-## Installazione su Mac
+[Dettagli e istruzioni della versione 1.4.2](https://github.com/lorenzofulgosi92-ai/pastafresca013-aggiornamenti/releases/tag/v1.4.2)
 
-- **Apple Silicon** (M1 e successivi): scegliere il file `mac-arm64.zip`.
-- **Intel**: scegliere il file `mac-x64.zip`, quando disponibile.
+## Primo avvio o passaggio da una vecchia versione
 
-Creare un backup completo da Impostazioni. Chiudere Pastafresca013, aprire lo ZIP e copiare l’app in Applicazioni, sostituendo la precedente. Riaprire l’app e accedere con l’utente già creato. Archivio e account rimangono sul computer.
+1. Se usi già il gestionale, apri Impostazioni, scegli **Crea backup completo** e poi chiudi il programma.
+2. Apri il file scaricato e sposta **Pastafresca013** nella cartella **Applicazioni**, confermando la sostituzione se richiesta.
+3. Apri il programma da Applicazioni. Puoi accedere con l’utente già creato: archivio e account rimangono sul computer.
 
-Le app Mac sono firmate ad-hoc e non notarizzate. Rimangono applicabili i controlli di macOS. L’installer Windows è ancora da compilare e collaudare.
+Questo passaggio iniziale introduce la nuova versione con firma Developer ID e verifica Apple. Gli aggiornamenti successivi si gestiscono dal pulsante **Aggiorna** in Impostazioni: il programma scarica la nuova versione, crea un backup e si riapre aggiornato.
 
 ## Aggiornamenti e dati
 
-Dalla versione 1.4.1 il programma può controllare questo canale all’avvio e ogni quattro ore. Verifica la firma del manifesto, la dimensione e l’hash del pacchetto prima di proporre l’installazione. Su Mac la sostituzione dell’app è manuale. Il gestionale continua a funzionare offline.
+Il controllo avviene anche all’apertura e ogni quattro ore. Gli aggiornamenti già scaricati si installano alla normale chiusura. Serve Internet per cercare e scaricare le nuove versioni; il lavoro nel gestionale rimane disponibile offline.
 
-I dati del ristorante, gli account locali e i backup non vengono caricati in questo repository. Il contenuto del repository Git comprende soltanto le istruzioni; i pacchetti vengono allegati alle release.
+La firma del manifesto e l’integrità dei pacchetti vengono verificate prima dell’installazione. Il pacchetto Mac 1.4.2 è firmato Developer ID e notarizzato da Apple. Il collaudo con dati fittizi ha verificato sostituzione, riapertura e conservazione di archivio, accesso, documenti e backup.
+
+Questa versione è disponibile per Mac Apple Silicon. I nuovi pacchetti Intel e Windows richiedono ancora preparazione e collaudo. Le [versioni precedenti](https://github.com/lorenzofulgosi92-ai/pastafresca013-aggiornamenti/releases) restano disponibili con i rispettivi limiti.
+
+I dati del ristorante, gli account locali e i backup non vengono caricati in questo repository. Il repository contiene le istruzioni; gli installer sono allegati alle release.
 
 Conservare le licenze di terze parti incluse nell’app. Built with Llama.
